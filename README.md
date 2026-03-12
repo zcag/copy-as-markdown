@@ -17,24 +17,24 @@ Headings, bold/italic/strikethrough, links (absolute URLs), images, code blocks 
 
 ## Install
 
-### From source (all Chromium browsers)
+### Download (recommended)
 
-1. Clone this repo or [download ZIP](../../archive/refs/heads/master.zip)
-2. Open your browser's extension page:
-   - Chrome: `chrome://extensions/`
-   - Edge: `edge://extensions/`
-   - Brave: `brave://extensions/`
-3. Enable **Developer mode** (toggle in top-right)
-4. Click **Load unpacked** → select this folder
-5. Done — click the extension icon or use keyboard shortcuts
+**[⬇ Download v1.1.0](https://github.com/zcag/copy-as-markdown/releases/latest/download/copy-as-markdown.zip)** — works on Chrome, Edge, Brave, Opera, Firefox
+
+**Chrome / Edge / Brave / Opera:**
+1. Download and extract the ZIP
+2. Go to `chrome://extensions` (or `edge://extensions`)
+3. Enable **Developer mode** (top right)
+4. Click **Load unpacked** → select the extracted folder
+
+**Firefox:**
+1. Download and extract the ZIP
+2. Go to `about:debugging#/runtime/this-firefox`
+3. Click **Load Temporary Add-on** → select any file in the folder
 
 ### Bookmarklet (no install needed)
 
-Don't want to install an extension? Use the [bookmarklet version](https://zcag.github.io/copy-as-markdown-bookmarklet/) — just drag a link to your bookmarks bar. Works in any browser.
-
-### Store listings
-
-Coming soon to Edge Add-ons and Chrome Web Store.
+Don't want to install an extension? Use the [bookmarklet version](https://zcag.github.io/copy-as-markdown-bookmarklet/) — drag a link to your bookmarks bar. Works in any browser.
 
 ## Usage
 

@@ -4,6 +4,15 @@
   "version": "1.1.0",
   "description": "One-click to copy any webpage as clean Markdown with token count. Perfect for ChatGPT, Claude, Gemini, and other AI tools.",
   "permissions": ["activeTab", "contextMenus", "clipboardWrite", "scripting"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copy-as-markdown@zcag",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -18,7 +27,8 @@
     "128": "icons/icon128.png"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
   },
   "commands": {
     "copy-page": {

@@ -1,0 +1,10 @@
+{
+  "version": {
+    "approval_notes": "Simple content script extension. No remote code execution. All code is bundled. Converts webpage DOM to Markdown and copies to clipboard.",
+    "license": "MIT"
+  },
+  "categories": ["bookmarks"],
+  "summary": {
+    "en-US": "One-click to copy any webpage as clean Markdown with token count. Perfect for ChatGPT, Claude, Gemini, and other AI tools."
+  }
+}

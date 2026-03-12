@@ -28,6 +28,10 @@ Headings, bold/italic/strikethrough, links (absolute URLs), images, code blocks 
 4. Click **Load unpacked** → select this folder
 5. Done — click the extension icon or use keyboard shortcuts
 
+### Bookmarklet (no install needed)
+
+Don't want to install an extension? Use the [bookmarklet version](https://zcag.github.io/copy-as-markdown-bookmarklet/) — just drag a link to your bookmarks bar. Works in any browser.
+
 ### Store listings
 
 Coming soon to Edge Add-ons and Chrome Web Store.
